@@ -1,0 +1,34 @@
+html {
+  background: url(https://i.stack.imgur.com/NsOce.jpg) no-repeat center center
+    fixed;
+  background-size: cover;
+  font-family: sans-serif;
+  color: #fff;
+}
+.section {
+  height: 100vh;
+}
+
+/* Define o menu */
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  border-bottom: 1px solid #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Nova classe a ser atribuída ao elemento com os estilos desejados */
+.mudaCor {
+  background-color: #fff;
+  color: #000;
+}
+#menu .item {
+  display: inline-block;
+  padding: 15px;
+}
+#body-wrapper {
+  margin-top: 70px;
+}
